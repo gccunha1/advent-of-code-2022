@@ -1,12 +1,12 @@
 cc_library(
     name = "_common",
     srcs = [
-        "FileUtils.cpp",
+        "Utils.cpp",
     ],
     hdrs = [
         "Debug.hpp",
-        "FileUtils.h",
         "ISolution.hpp",
+        "Utils.h",
     ],
     visibility = ["//visibility:public"],
 )

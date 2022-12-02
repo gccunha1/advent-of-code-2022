@@ -9,6 +9,7 @@ int main(int argc, char const *argv[]) {
     }
 
     Solution solution{};
-    std::cout << "Result: " << (solution.Run(argv[1])) << std::endl;
+    int result = solution.Run(argv[1]);
+    std::cout << "Result: " << result << std::endl;
     return 0;
 }
