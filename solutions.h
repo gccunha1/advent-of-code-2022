@@ -20,6 +20,18 @@
 #include "05/part1/Solution.hpp"
 #elif defined(SOLUTION_05_PART2)
 #include "05/part2/Solution.hpp"
+#elif defined(SOLUTION_06_PART1)
+#include "06/part1/Solution.hpp"
+#elif defined(SOLUTION_06_PART2)
+#include "06/part2/Solution.hpp"
+#elif defined(SOLUTION_07_PART1)
+#include "07/part1/Solution.hpp"
+#elif defined(SOLUTION_07_PART2)
+#include "07/part2/Solution.hpp"
+#elif defined(SOLUTION_08_PART1)
+#include "08/part1/Solution.hpp"
+#elif defined(SOLUTION_08_PART2)
+#include "08/part2/Solution.hpp"
 #else
 #include "01/part1/Solution.hpp"
 #endif
