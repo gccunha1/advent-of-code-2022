@@ -36,6 +36,10 @@
 #include "09/part1/Solution.hpp"
 #elif defined(SOLUTION_09_PART2)
 #include "09/part2/Solution.hpp"
+#elif defined(SOLUTION_10_PART1)
+#include "10/part1/Solution.hpp"
+#elif defined(SOLUTION_10_PART2)
+#include "10/part2/Solution.hpp"
 #else
 #include "01/part1/Solution.hpp"
 #endif
